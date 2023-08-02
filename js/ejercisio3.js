@@ -23,7 +23,6 @@ enviar.addEventListener('click',()=>{
             return;
         }
          
-
         if( email=="admin@gmail.com"  && password=="12345678" ){
             document.body.style.backgroundColor='red';
             alert(`bienvenido ${email}`)
@@ -39,9 +38,7 @@ enviar.addEventListener('click',()=>{
         }else if( email && password){
             alert(`bienvenido ${email}`)
             document.body.style.backgroundColor='yellow';
-        }
-
-       
+        } 
     }
     inicio();
 

@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(150, 137, 137);
+}
+#formulario{
+    background-color: aliceblue;
+    position: absolute;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+#titulo{
+    color: rgb(216, 216, 49);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    align-items: center;
+    
+}
